@@ -1,0 +1,175 @@
+body,.page{
+    margin: 0;
+    padding: 0;
+}
+.first-part{
+    background: url(indian.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 60vh;
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    position: relative;
+}
+.text{
+    align-self: center;
+}
+
+.list{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+ .list-1{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0; 
+}
+.para{
+    border-radius: 54%;
+    margin: auto;
+    width: 25%;
+    background-color: orange;
+    padding: 50px;
+    box-shadow: 3px 6px 30px 24px#ffa500a8
+}
+
+.img{
+    width: 100%;
+}
+.second-part{
+    display: flex;
+    flex-direction: row;
+    background: #ffddcc30;
+}
+.other-part{
+    height: 600px;
+    top: -120px;
+    position: relative;
+}
+.other-part-1{
+    margin-top: 90px;
+    padding: 90px;
+    width: 50%;
+}
+.statement{
+    display: flex;
+    margin-bottom: 200px;
+}
+.vision{
+    margin-left: 10px;
+}
+.Third-part{
+    background: rgb(145, 192, 50);
+    height: auto;
+}
+/* .food-tray{
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: -10px;
+    position: relative;
+} */
+.Edition{
+    width: 70%;
+    padding: 25px;
+    position: relative;
+    top: -150px;
+    display: flex;
+    /* justify-content: center; */
+    margin: auto;
+    justify-content: space-between;
+}
+.Lastest{
+    color: #ffffff;
+    background: rgb(3, 70, 3);
+    /* width: 60%; */
+    padding: 25px;
+}
+.food-tray{
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    position: relative;
+}
+.btn-1{
+    background: #ffffff; 
+    color: green; 
+    border-radius: 25px; 
+    padding: 10px 76px;
+    border: 1px ;
+    position: relative;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.btn-2{
+    background: rgb(145, 192, 50);
+    color: #fff;
+    border-radius: 25px;
+    /* margin-left: 245px; */
+    padding: 10px 15px;
+    border: 1px solid #fff;
+    cursor: pointer;
+     display: inline;
+     white-space: nowrap;
+}
+.btn{
+    display: flex;
+    justify-content: space-between;
+}
+
+.food-list{
+    width: 30%;
+     display: flex;
+    flex-direction: column;
+    height: 520px;
+}
+.items{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.por{
+    background: rgb(255, 81, 0);
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inter{
+    background: orange;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+}
+.cake{
+    background: rgb(255, 199, 95);
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.des{
+    background: orange;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Asaro{
+    width: 40%;
+    position: relative;
+}
+.local-list{
+     /* float: left; */
+    width: 40%; 
+    
+}
+
+
