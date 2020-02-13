@@ -273,6 +273,10 @@ li{
     padding: 50px;
     flex-wrap: wrap;
 }  
+.forth-part{
+    display: flex; 
+
+}
 @media only screen and (max-width: 600px) {
     /* .first-part{
         display: flex;
@@ -288,7 +292,8 @@ li{
     }
     .other-part-1{
         margin-top: auto;
-        padding: auto;
+        padding: 15%;
+        width: 100%;
 
         
     }
@@ -297,7 +302,7 @@ li{
         margin-bottom: 200px;
     }
     .Third-part{
-        height: auto;
+        height: 500px;
     }
     .footer{
         display: block;
@@ -319,4 +324,21 @@ li{
         text-align: center;
         margin-left: 20px;
     }
+    .local-list{
+        width: 100%;
+    }
+
+    .forth-part{
+        display: block;
+    }
+    .food-list{
+        width: 100%;
+    }
+
+    .forth-text{
+        text-align: center;
+    }
+    
+
+    
 }       
