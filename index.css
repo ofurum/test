@@ -13,6 +13,10 @@ body,.page{
     align-self: center;
     position: relative;
 }
+li{
+    display: inline;
+    padding: 5px;
+}
 .text{
     align-self: center;
 }
@@ -27,6 +31,22 @@ body,.page{
     list-style: none;
     margin: 0;
     padding: 0; 
+}
+.about{
+    background: #ffa500a8;
+    padding: 10px 28px;
+}
+.publication{
+    background: orange;
+    padding: 10px 10px;
+}
+.menu{
+    background: orangered;
+    padding: 10px 24px;
+}
+.contact{
+    background: rgb(3, 70, 3);
+    padding: 10px 20px
 }
 .para{
     border-radius: 54%;
@@ -98,14 +118,16 @@ body,.page{
     position: relative;
 }
 .btn-1{
-    background: #ffffff; 
-    color: green; 
-    border-radius: 25px; 
-    padding: 10px 76px;
-    border: 1px ;
+    background: #ffffff;
+    color: green;
+    border-radius: 25px;
+    /* padding: 10px 76px; */
+    border: 1px;
     position: relative;
     margin-top: 10px;
     cursor: pointer;
+    width: 65%;
+    height: 30px;
 }
 .btn-2{
     background: rgb(145, 192, 50);
@@ -115,8 +137,7 @@ body,.page{
     padding: 10px 15px;
     border: 1px solid #fff;
     cursor: pointer;
-     display: inline;
-     white-space: nowrap;
+    display: inline;
 }
 .btn{
     display: flex;
@@ -127,7 +148,7 @@ body,.page{
     width: 30%;
      display: flex;
     flex-direction: column;
-    height: 520px;
+    
 }
 .items{
     list-style: none;
@@ -136,34 +157,39 @@ body,.page{
 }
 .por{
     background: rgb(255, 81, 0);
-    height: 40%;
+    height: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 10px;
 }
 .inter{
     background: orange;
-    height: 40%;
+    height: 20%;
     display: flex;
     justify-content: center;
-    align-items: center;;
+    align-items: center;
+    padding: 10px;
 }
 .cake{
     background: rgb(255, 199, 95);
-    height: 40%;
+    height: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 10px;
 }
 .des{
     background: orange;
-    height: 40%;
+    height: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 10px;
 }
 .Asaro{
-    width: 40%;
+    /* width: 100%;
+    height: 100%; */
     position: relative;
 }
 .local-list{
@@ -171,5 +197,75 @@ body,.page{
     width: 40%; 
     
 }
-
-
+.forth-text{
+    background: #ffddcc30;
+    padding: 35px;
+}
+.forth-text-1{
+    background: url(leaf.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.text-1{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    color: #ffff;
+}
+.text-2{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    color: orange;
+    margin-top: -74px;
+}
+.local-list-1{
+    display: block;
+}
+.but{
+    border-radius: 25%;
+}
+.footer{
+    background: orangered;
+}
+.yam{
+    border-bottom: 3px solid orange;
+    width: 73%;
+    padding: 20px;
+}
+.sub-head{
+    color: #7eb872;
+}
+.circle{
+    background: grey; 
+    border: 1px;
+    border-radius: 50%; 
+    padding: 5px;
+}
+.para-2 {
+    border-radius: 54%;
+    /* margin: auto; */
+    width: 25%;
+    background-color: #fff;
+    /* padding: 50px; */
+    /* box-shadow: 3px 6px 30px 24px#ffa500a8; */
+    font-size: 2em;
+    padding: 70px;
+    color: orangered;
+}
+.footer{
+    display: block;
+    align-items: center;
+}
+.footer-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    flex-wrap: wrap;
+}  
