@@ -5,18 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://kit.fontawesome.com/82c7340ee0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <link rel="stylesheet" href="index.css">
-    <title>Afican Kitchen</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js">
+    </script>
+    <link rel="stylesheet" href="scss/aos.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>African Kitchen</title>
 </head>
 <body>
     <div class="page">
         <div class="first-part"> 
-            <div class="text">
+            <div class="text" data-aos="fade-up">
                  <p class="para">Lorem ipsum dolor sitvoluptatibus, ciet.</p>
             </div>
             <div class="list">
                 <ul class="list-1">
-                    <li class="about" style="margin-right: 3px;">About</li>
+                    <li class="about" style="margin-right: 3px;"><a herf = ".other-part-1">About</a></li>
                     <li class="publication" style="margin-right: 3px;">Publication</li>
                     <li class="menu" style="margin-right: 3px;">Menu</li>
                     <li class="contact" style="margin-right: 5px;">Contact</li>
@@ -26,10 +31,10 @@
             
         </div>
         <div class="second-part">
-            <div class="other-part">
+            <div class="other-part" data-aos="fade-right">
             <img src="fruit tray.png" alt="fruit tray" style="height: 600px; width: 80%" >
             </div>
-            <div class="other-part-1">
+            <div class="other-part-1" data-aos="fade-left">
             <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
                 Accusantium ut sed ipsa odio incidunt nemo inventore deserunt necessitatibus neque eos adipisci qui similique, 
                 facere iusto blanditiis itaque recusandae ad provident.
@@ -62,7 +67,8 @@
 		</div>
             
             <div class="Edition">
-                <div class="Lastest">
+                <div class="Lastest" data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom">
                     <p style="font-size: 50px;">The Lastest issue</p>
                     <small style="color:greenyellow;">FIFTH EDITION</small><br>
                     <div class="btn">
@@ -89,16 +95,16 @@
                 <img src="Asaro.jpg" alt="" width="100%" height="100%">
             </div>
         
-            <div class="local-list">
+            <div class="local-list" data-aos="fade-left">
                 <h3 class="yam"><span class="sub-head">Porridge Yam</span> <br>
                     <span style="color: green;">( Asaro )</span>
                 </h3>
         
         
-                <div>
+                <div class="local-list-1">
                     <p><strong style="display: flex;justify-content: center;">Serving: 4</strong></p>
         
-                    <ul class="local-list-1">
+                    <ul class="local-list-10">
                         <li>1/2 tuber yam(medium)</li><br>
                         <li>  1 cup shredded smoked chicken</li><br>
                         <li>  1/2 cup oporo</li><br>
@@ -111,7 +117,7 @@
                         <li>2 cups diced scent leaf</li>
                     </ul>
                 </div>
-                <div>
+                <div class="local-list-2">
                     <span style="display: flex; justify-content: center;"><strong>Prep Time:  7 mins </strong> </span> 
                     <ul>
                         <li>Wash and shred Pepper roughly and set aside.</li><br>
@@ -128,7 +134,7 @@
         </div>
          
         <div class="forth-text">
-            <div class="forth-text-1">
+            <div class="forth-text-1" data-aos="flip-left" >
                 <h2 class="text-1">This is a sub heading for websites</h2>
                 <span class="text-2">
                     <p>
@@ -144,17 +150,18 @@
 
         <div class="footer">
                 <div class="footer-1">
-                    <div class="access" style="color: white ">
+                    <div class="access" style="color: white " data-aos="fade-right">
                        <span>Get Access to Us</span><br>
                        <span>+234 (0) 909 008 8812</span><br>
                        <span>@infoxand.com</span><br>
                     </div>
 
-                    <div class="big-cirle">
+                    <div class="big-cirle" data-aos="fade-up"
+                    data-aos-anchor-placement="bottom-bottom">
                             <p class="para-2" style="text-align: center;">Xand</p>
                     </div>
 
-                    <div class="socials">
+                    <div class="socials"  data-aos="fade-left">
                         <ul class="socials-1" style="color: white;">
                             <li><i class="fab fa-instagram fa-2x"></i></li>
                             <li><i class="fab fa-facebook-square fa-2x"></i></li>
@@ -164,5 +171,63 @@
                 </div>
         </div>
     </div>  
+
+
+
+
+    
+   <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous">
+  </script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="js/aos.js"></script>
+  <script>
+    AOS.init({
+         duration: 2000,
+         mirror: true,
+    });
+
+    $(document).ready(function() {
+  $('.about').click(function(event) {
+    $('body, html').animate({
+      scrollTop: $(".other-part-1").offset().top
+    }, 600);
+  });
+  
+});
+ 
+
+$(document).ready(function() {
+  $('.publication').click(function(event) {
+    $('body, html').animate({
+      scrollTop: $(".Third-part").offset().top
+    }, 600);
+  });
+  
+});
+    $(document).ready(function() {
+  $('.menu').click(function(event) {
+    $('body, html').animate({
+      scrollTop: $(".forth-part").offset().top
+    }, 600);
+  });
+  
+});
+
+
+$(document).ready(function() {
+  $('.contact').click(function(event) {
+    $('body, html').animate({
+      scrollTop: $(".footer").offset().top
+    }, 600);
+  });
+  
+});
+
+
+
+  </script>
 </body>
 </html>
